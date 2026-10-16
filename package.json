@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "save-report": "node scripts/save-report.mjs",
+    "list-tests": "playwright test --list --reporter=list"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
